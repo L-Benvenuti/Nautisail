@@ -1,32 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: $default-font-size;
-    color: $color-grey-dark-3;
+	font-family: "Open Sans", sans-serif;
+	font-size: $default-font-size;
+	color: $color-grey-dark-3;
 }
 
 .heading-primary {
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: $color-grey-light-1;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: $color-grey-light-1;
 
-    &--main {
-        font-size: $huge-font-size;  
-        letter-spacing: 1.3rem;  
-    }
+	&--main {
+		font-size: $huge-font-size;
+		letter-spacing: 1.8rem;
+	}
 
-    &--sub {
-        font-size: $medium-font-size-2;
-        letter-spacing: 0.6rem;
-        margin-bottom: 4.5rem;
-    }
+	&--sub {
+		font-size: $medium-font-size-2;
+		letter-spacing: 0.6rem;
+	}
 }
 
 .heading-secondary {
-    font-size: $medium-font-size-1;
-    text-transform: uppercase;
-    &--main {
-
-    }
+	font-size: $medium-font-size-1;
+	text-transform: uppercase;
+	&--main {
+	}
 }

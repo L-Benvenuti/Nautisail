@@ -16,11 +16,23 @@ body {
   padding: 3rem;
 }
 
-.btn {
-  display: inline-block;
+::selection {
+  background-color: #2f5073;
+  color: #fff;
+}
+
+.medium-margin-top {
+  margin-top: 4.5rem;
+}
+
+.btn, .btn:link, .btn:active {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
   padding: 1rem 4rem;
   border-radius: 8rem;
-  text-decoration: none;
+  display: inline-block;
   box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.2s;
@@ -78,17 +90,16 @@ body {
 .heading-primary {
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
   color: #f7f7f7;
 }
 .heading-primary--main {
   font-size: 10rem;
-  letter-spacing: 1.3rem;
+  letter-spacing: 1.8rem;
 }
 .heading-primary--sub {
   font-size: 3rem;
   letter-spacing: 0.6rem;
-  margin-bottom: 4.5rem;
 }
 
 .heading-secondary {

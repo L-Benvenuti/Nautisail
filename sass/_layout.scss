@@ -1,9 +1,14 @@
 .header {
-    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../img/hero-beach.jpg);
+	background-image: linear-gradient(
+			to right bottom,
+			rgba($color-primary-light, 0.8),
+			rgba($color-primary-dark, 0.8)
+		),
+		url(../img/hero-beach.jpg);
 	background-size: cover;
 	background-position: top;
 	position: relative;
-    height: 85vh;
+	height: 85vh;
 
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -13,7 +18,7 @@
 		top: 3rem;
 		left: 3rem;
 	}
-	
+
 	&__logo {
 		height: 10rem;
 		width: auto;
@@ -21,22 +26,19 @@
 
 	&__text-box {
 		position: absolute;
-    	top: 45%;
-    	left: 50%;
-    	transform: translate(-50%, -50%);
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		text-align: center;
 	}
 }
 
 .about {
-
 	&__details {
-
 	}
 
 	&__photo-box {
 		overflow: hidden;
-		
 	}
 
 	&__photo {
@@ -44,6 +46,5 @@
 	}
 
 	&__values {
-
 	}
 }

@@ -1,7 +1,7 @@
 {
-	"name": "Nautisail",
+	"name": "NautiSail",
 	"version": "1.0.0",
-	"description": "Landing Page for Nautisail",
+	"description": "NautiSail Website",
 	"main": "index.js",
 	"scripts": {
 		"watch:sass": "sass --watch sass/main.scss:css/style.css",
