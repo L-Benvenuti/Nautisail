@@ -5,16 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>NautiSail</title>
 		<link rel="stylesheet" href="/css/style.css" />
-		<link rel="icon" type="image/x-icon" href="./img/svg/4.svg" />
+		<link rel="icon" type="image/x-icon" href="./img/favicon-2.svg" />
 	</head>
 	<body>
 		<header class="header">
 			<div class="header__logo-box">
-				<img
-					src="/img/logo/4.png"
-					alt="Nautisail logo"
-					class="header__logo"
-				/>
+				<a href="#">
+					<img
+						src="/img/svg/4.svg"
+						alt="NautiSail logo"
+						class="header__logo"
+					/>
+				</a>
 			</div>
 			<div class="header__text-box">
 				<div class="heading-primary heading-primary--main">
@@ -23,21 +25,16 @@
 				<div class="heading-primary heading-primary--sub">
 					Your next adventure starts here
 				</div>
-				<div class="medium-margin-top">
-					<a src="#services" class="btn btn--grey"
-						>Explore our services</a
-					>
-				</div>
+				<button id="services" class="u-medium-margin-top btn btn--grey">
+					Explore our services
+				</button>
 			</div>
 		</header>
 
 		<main class="content">
 			<div id="about" class="about">
-				<div class="heading-secondary">
-					<h2 class="heading-secondary--main">About us</h2>
-				</div>
 				<div class="about__details">
-					<div class="about__photo-box">
+					<div class="about__photo-box u-small-margin-top">
 						<img
 							src="/img/coral-1.jpg"
 							alt="Water Activity"
@@ -45,13 +42,104 @@
 						/>
 					</div>
 					<div class="about__text-box">
-						<p class="paragraph"></p>
-						<p class="paragraph"></p>
+						<div class="heading-secondary">
+							<h2 class="heading-secondary--main">About us</h2>
+						</div>
+						<p class="paragraph u-small-margin-top">
+							Lorem ipsum, dolor sit amet consectetur adipisicing
+							elit. Ab minus dolorum earum nemo voluptatem
+							praesentium blanditiis voluptatum inventore vel,
+							esse molestiae explicabo quas odio, nihil culpa? Qui
+							doloribus quaerat suscipit!
+						</p>
+						<p class="paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Nam sint consequatur quidem veritatis
+							distinctio impedit, porro quod quaerat cum aperiam.
+							Rem omnis aliquam porro eveniet quod quia quae
+							excepturi labore!
+						</p>
 					</div>
 				</div>
-				<div class="about__values"></div>
+			</div>
+
+			<div class="values u-big-margin-top">
+				<div class="card">
+					<svg class="card__icon">
+						<use xlink:href="/img/sprite.svg#icon-suitcase"></use>
+					</svg>
+					<h3 class="card__value-name">Adventure</h3>
+					<p class="paragraph u-tiny-margin-top">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Autem nam iste, eum illo iure ipsum a, ullam velit
+						tempora repellat ius.
+					</p>
+				</div>
+				<div class="card">
+					<svg class="card__icon">
+						<use xlink:href="/img/sprite.svg#icon-globe"></use>
+					</svg>
+					<h3 class="card__value-name">Discovery</h3>
+					<p class="paragraph u-tiny-margin-top">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Autem nam iste, eum illo iure ipsum a, ullam velit
+						tempora repellat ius.
+					</p>
+				</div>
+				<div class="card">
+					<svg class="card__icon">
+						<use xlink:href="/img/sprite.svg#icon-heart"></use>
+					</svg>
+					<h3 class="card__value-name">Excitement</h3>
+					<p class="paragraph u-tiny-margin-top">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Autem nam iste, eum illo iure ipsum a, ullam velit
+						tempora repellat ius.
+					</p>
+				</div>
+				<div class="card">
+					<svg class="card__icon">
+						<use xlink:href="/img/sprite.svg#icon-recycle"></use>
+					</svg>
+					<h3 class="card__value-name">Sustainability</h3>
+					<p class="paragraph u-tiny-margin-top">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Autem nam iste, eum illo iure ipsum a, ullam velit
+						tempora repellat ius.
+					</p>
+				</div>
 			</div>
 		</main>
-		<footer class="footer"></footer>
+		<footer class="footer">
+			<div class="footer__text-box">
+				<ul class="footer__nav">
+					<li class="footer__link">
+						<a href="#">Home</a>
+					</li>
+					<li class="footer__link">
+						<a href="/pages/services.html" class="footer__link"
+							>Services</a
+						>
+					</li>
+					<li class="footer__link">
+						<a href="/pages/contact.html" class="footer__link"
+							>Contact Us</a
+						>
+					</li>
+				</ul>
+				<p class="copyright u-tiny-margin-top">
+					&copy;2025 Luiza Benvenuti Hernandez.
+				</p>
+			</div>
+			<div class="footer__logo-box">
+				<a href="#">
+					<img
+						class="footer__logo"
+						src="/img/svg/6.svg"
+						alt="NautiSail logo"
+					/>
+				</a>
+			</div>
+		</footer>
 	</body>
 </html>

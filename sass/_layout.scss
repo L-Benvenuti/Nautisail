@@ -33,18 +33,28 @@
 	}
 }
 
+.content {
+	margin-top: -6rem;
+	margin-bottom: 12rem;
+}
+
 .about {
-	&__details {
-	}
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 10rem;
+}
 
-	&__photo-box {
-		overflow: hidden;
-	}
+.values {
+	display: flex;
+	justify-content: space-around;
+}
 
-	&__photo {
-		width: 40%;
-	}
+.footer {
+	background-color: rgba($color-primary-dark, 0.8);
+	padding: 3rem 4rem;
+	color: $color-grey-light-1;
 
-	&__values {
-	}
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }

@@ -23,8 +23,20 @@ body {
 }
 
 .heading-secondary {
-	font-size: $medium-font-size-1;
-	text-transform: uppercase;
 	&--main {
+		font-size: $big-font-size-1;
+		text-transform: uppercase;
+		color: $color-primary-dark;
 	}
+}
+
+.paragraph {
+	line-height: 3rem;
+	&:not(:last-child) {
+		margin-bottom: 2.5rem;
+	}
+}
+
+.copyright {
+	font-size: $small-font-size-2;
 }
