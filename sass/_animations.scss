@@ -1,0 +1,43 @@
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(-50rem);
+	}
+
+	50% {
+		transform: translateX(1);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(50rem);
+	}
+
+	50% {
+		transform: translateX(1);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes growUp {
+	0% {
+		opacity: 0;
+		transform: translateY(7rem) scale(0.1);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+}
